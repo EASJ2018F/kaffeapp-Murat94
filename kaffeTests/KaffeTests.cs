@@ -38,7 +38,7 @@ namespace kaffe.Tests
         {
             
             //Arrange
-            var kaffeListe = new List<Imælk>();
+            var kaffeListe = new List<IMælk>();
 
             var cortado = new Cortado();
             var latte = new Latte();

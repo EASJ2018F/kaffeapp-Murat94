@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
-    public class Cortado : Kaffe , Imælk
+    public class Cortado : Kaffe , IMælk
     {
         /// <summary>
         /// hvor meget mælk skal bruge i cortado

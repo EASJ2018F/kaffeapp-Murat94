@@ -6,20 +6,26 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
-    public class Latte : Kaffe , IMælk
+
+    public class FlatWhite : Kaffe , IMælk
     {
-        /// <summary>
-        /// Hvor meget mælk skal bruges til Latte
-        /// </summary>
-        /// <returns></returns>
+        
+
         public int MlMælk()
         {
-            return 120;
+            return 160;
         }
 
         public override int Pris()
         {
-            return 40;
+            return 45;
         }
+        public virtual string Styrke()
+        {
+            return "mild"; 
+        }
+
+
+
     }
 }
